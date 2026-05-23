@@ -58,7 +58,7 @@ export default function Home() {
 
         {/* Botón de Emergencia con Mensaje Directo */}
         <a
-          href="https://wa.me¡URGENTE!%20Necesito%20un%20electricista%20por%20una%20emergencia."
+          href="https://wa.me/526642304932"
           style={{
             border: "2px solid #ef4444", // Cambiado a rojo para denotar urgencia
             padding: "15px 30px",

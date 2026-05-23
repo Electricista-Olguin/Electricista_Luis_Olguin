@@ -1,12 +1,14 @@
 export const metadata = {
-  title: "Electricista Olguín",
+  title: "Electricista Olguin",
   description: "Servicios eléctricos profesionales",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }

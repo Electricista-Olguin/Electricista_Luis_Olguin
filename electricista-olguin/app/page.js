@@ -1,0 +1,94 @@
+export default function Home() {
+  return (
+    <main
+      style={{
+        background: "#020617",
+        color: "white",
+        fontFamily: "Arial, sans-serif",
+        minHeight: "100vh",
+      }}
+    >
+      {/* HERO */}
+      <section
+        style={{
+          padding: "80px 20px",
+          textAlign: "center",
+          background: "linear-gradient(to bottom, #0f172a, #020617)",
+        }}
+      >
+        <h1
+          style={{
+            fontSize: "44px",
+            marginBottom: "20px",
+            color: "#3b82f6",
+          }}
+        >
+          ELECTRICISTA OLGUÍN ⚡
+        </h1>
+
+        <p
+          style={{
+            fontSize: "22px",
+            marginBottom: "20px",
+            color: "#cbd5e1",
+          }}
+        >
+          “Si en tu mente enciende, lo hacemos posible”
+        </p>
+
+        <div
+          style={{
+            marginBottom: "30px",
+            color: "#94a3b8",
+          }}
+        >
+          <p>✅ Electricista Certificado por el Cecaty</p>
+          <p>✅ Garantía de instalación</p>
+          <p>✅ Atención profesional y rápida</p>
+        </div>
+
+        {/* BOTÓN COTIZACIÓN */}
+        <a
+          href="https://wa.me/526642304932"
+          style={{
+            background: "#2563eb",
+            padding: "15px 30px",
+            borderRadius: "15px",
+            color: "white",
+            textDecoration: "none",
+            fontWeight: "bold",
+            display: "inline-block",
+            margin: "10px",
+          }}
+        >
+          Solicitar Cotización
+        </a>
+
+        {/* BOTÓN EMERGENCIA */}
+        <a
+          href="https://wa.me/526642304932?text=%C2%A1URGENTE!%20Necesito%20un%20electricista%20por%20una%20emergencia."
+          style={{
+            border: "2px solid #ef4444",
+            padding: "15px 30px",
+            borderRadius: "15px",
+            color: "#ef4444",
+            textDecoration: "none",
+            fontWeight: "bold",
+            display: "inline-block",
+            margin: "10px",
+          }}
+        >
+          🚨 Emergencia Eléctrica
+        </a>
+      </section>
+
+      {/* SERVICIOS */}
+      <section
+        style={{
+          padding: "70px 20px",
+          textAlign: "center",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "40

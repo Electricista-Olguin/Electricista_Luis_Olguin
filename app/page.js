@@ -41,7 +41,7 @@ export default function Home() {
 
         {/* Botón de Cotización */}
         <a
-          href="https://wa.me."
+          href="https://wa.me/526642304932"
           style={{
             background: "#2563eb",
             padding: "15px 30px",
